@@ -1,0 +1,25 @@
+{
+    "name": "ebussola/haversine-database-search",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonardo Shinagawa",
+            "email": "leonardo@ebussola.com"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "autoload": {
+        "psr-4": {
+            "ebussola\\haversine\\database\\": "src/"
+        }
+    },
+
+    "require": {
+        "doctrine/dbal": "~2.4"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    }
+}
